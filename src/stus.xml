@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE booklist [
+        <!ELEMENT booklist (book)*>
+        <!ELEMENT book ((name,price)?,description*)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        ]>
+<booklist>
+    <book>
+        <name>高数</name>
+        <price>29</price>
+        <description>这是第一本高数</description>
+    </book>
+    <book>
+        <description>这是第二本高数</description>
+    </book>
+</booklist>
